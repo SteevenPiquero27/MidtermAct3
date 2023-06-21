@@ -1,0 +1,95 @@
+body
+{
+	background-image: url("meow.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+}
+.meow ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #EED971;
+}
+.meow li 
+{
+	float: left;
+}
+.meow li a, .dropbtn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;
+	padding: 14px 16px;
+	border-radius: 12px;
+	text-align: center;
+}
+.meow a.active
+{
+	color: #FFA351;
+	font-size: 19pt;
+	padding: 14px 16px;
+}
+.meow li a:hover:not(.active), .dropdown:hover .dropbtn
+{
+	background-color: #FFA351;
+	color: white;
+	font-size:18pt;
+	font-weight:bold;
+	padding:15px 17px;
+}
+.meow li.dropdown 
+{
+  display: inline-block;
+}
+.meow .dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #FFBE7B;
+  min-width: 160px;
+  z-index: 1;
+}
+.meow .dropdown-content a 
+{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.meow .dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+.puss ul
+{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 200px;
+  background-color: #FFBE7B;
+}
+.puss li a 
+{
+  display: block;
+  color: white;
+  font-size: 15pt;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.puss li a:hover
+{
+  background-color: #FFA351;
+  color: white;
+  font-size:18pt;
+	font-weight:bold;
+	padding:15px 17px;
+}
